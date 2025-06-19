@@ -1,110 +1,58 @@
-# ai-feedback-generator
-# 🤖 AI Feedback Generator for Projects
+# 🧠 AI Feedback Generator for Academic Projects
 
-Give your project report a smart review using Generative AI! This app analyzes PDF, DOCX, or PPTX files and provides:
-
-- ✅ Strengths & Weaknesses
-- ✅ Suggestions for Improvement
-- ✅ Possible Viva Questions
-- ✅ Multilingual Support: English, Tamil, Hindi
-- ✅ Export options: PDF & PowerPoint Slides
-
-Built using [Streamlit](https://streamlit.io), [Groq](https://groq.com), and LLMs.
+Ever wished you had a mentor who could instantly review your project report, suggest improvements, and prepare you for viva questions?  
+This tool does exactly that — powered by Generative AI.
 
 ---
 
-## 📸 Demo
+## 🚀 What is This?
 
-![App Screenshot](https://github.com/yourusername/ai-feedback-generator/assets/screenshot.gif)
-![Uploading Screenshot_19-6-2025_21642_localhost.jpeg…]()
+**AI Feedback Generator** is a Streamlit-based web app that takes in your project document — PDF, DOCX, or PPTX — and gives back:
 
----
-
-## 🚀 Features
-
-| Feature | Description |
-|--------|-------------|
-| 📂 Upload Project File | Accepts `.pdf`, `.docx`, `.pptx` |
-| 🗣️ Choose Tone | Friendly, Formal, or Critical feedback |
-| 🌐 Language Options | English, Tamil, Hindi |
-| 📝 Feedback & Viva | Instant AI-generated suggestions |
-| 📥 Export | Download as PDF or PPTX presentation |
+- ✅ Clear, structured feedback on your project  
+- 💡 Smart improvement suggestions and upgrade ideas  
+- 🎯 Auto-generated viva questions  
+- 🌐 Multilingual support (English, Tamil, Hindi)  
+- 📄 Downloadable reports in PDF and PowerPoint formats  
 
 ---
 
-## 🛠 Tech Stack
+## ✨ Why I Built This
 
-- Python 🐍
-- Streamlit 🧠
-- Groq API (LLaMA 3 model)
-- FPDF (PDF export)
-- python-pptx (PowerPoint export)
+As an AI enthusiast and engineering student, I noticed that many students (including myself) struggle to get timely, quality feedback on their projects.  
+So I thought — what if we could use GenAI not just to write code, but to think like a teacher?
 
 ---
 
-## 🧑‍💻 Installation
-
-1. **Clone the repo:**
-   ```bash
-   git clone https://github.com/yourusername/ai-feedback-generator.git
-   cd ai-feedback-generator
-
-2.Install dependencies:
-
-pip install -r requirements.txt
-
-3.Add your Groq API Key:
-Create a .streamlit/secrets.toml file:
-
-[default]
-GROQ_API_KEY = "your_groq_api_key_here"
-
-4.Run the app:
-
-streamlit run app.py
-
-
-📂 Project Structure
-
-ai-feedback-generator/
-├── app.py
-├── requirements.txt
-├── prompts/
-│   └── feedback_prompt.txt
-├── utils/
-│   ├── extractors.py
-│   └── slide_generator.py
-└── .streamlit/
-    └── secrets.toml
-✨ Future Ideas
-Text-to-speech feedback (in Tamil/Hindi)
-
-Add more file types (images, code files)
-
-Feedback accuracy grading
-
-Shareable report links
-
-📬 Contact
-Built by Mohammed Jaasir
-📧 jaasir@example.com
-📍 SNS College of Engineering
-🧠 Passionate about AI, Mobility, and Education!
-
-📄 License
-MIT License — free to use, adapt, and share.
-
-Let me know if you want:
-- A sample screenshot for the `![App Screenshot]` section
-- This README saved as a file and zipped with your project
-- Auto-deployment workflow (GitHub Actions + Streamlit)
-
-You're building something truly useful — let’s make it shine!
+## 🖼️ Preview
+![Screenshot_19-6-2025_21642_localhost](https://github.com/user-attachments/assets/724d1f75-9a2d-4348-bfd1-c2a9e2f3c56d)
 
 
 
+---
 
+## 🔧 Features at a Glance
 
+| Feature                  | Description                                                 |
+|--------------------------|-------------------------------------------------------------|
+| 📁 Upload Projects        | Accepts `.pdf`, `.docx`, `.pptx` files                     |
+| 🎭 Tone Customization     | Choose feedback tone: formal, friendly, or critical         |
+| 🌍 Multilingual Output    | Output in English, Tamil, or Hindi                          |
+| 📄 Export Options         | Download as PDF or well-formatted PowerPoint slides         |
+| 🎓 Viva Ready             | Auto-suggested viva questions based on your content         |
+| ⚡ Powered by Groq        | Uses LLaMA 3 on Groq for fast and smart feedback            |
 
+---
 
+## 🛠️ Tech Stack
+
+- **Frontend:** Streamlit  
+- **AI Backend:** Groq API (LLaMA 3)  
+- **Document Parsing:** pdfplumber, python-docx, python-pptx  
+- **Report Generation:** FPDF & python-pptx  
+- **Languages:** Python 🐍  
+
+---
+
+## 📂 Folder Structure
 
