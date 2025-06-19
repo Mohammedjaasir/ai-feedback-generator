@@ -65,9 +65,7 @@ streamlit run app.py
 
 
 📂 Project Structure
-markdown
-Copy
-Edit
+
 ai-feedback-generator/
 ├── app.py
 ├── requirements.txt
