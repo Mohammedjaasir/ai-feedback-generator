@@ -56,15 +56,71 @@ So I thought — what if we could use GenAI not just to write code, but to think
 
 ## 📂 Folder Structure
 
+'''
 ai-feedback-generator/
-├── app.py
-├── requirements.txt
+├── app.py                      # Main Streamlit app
+├── requirements.txt            # Python dependencies
+
 ├── prompts/
-│ └── feedback_prompt.txt
+│   └── feedback_prompt.txt     # AI prompt template
+
 ├── utils/
-│ ├── extractors.py
-│ └── slide_generator.py
+│   ├── extractors.py           # Text extraction from PDF, DOCX, PPTX
+│   └── slide_generator.py      # PowerPoint slide generation
+
 ├── assets/
-│ └── screenshot.png
+│   └── screenshot.png          # UI screenshot for README
+
 └── .streamlit/
-└── secrets.toml
+    └── secrets.toml            # (Not pushed to GitHub) contains Groq API key
+'''
+
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone this repo
+
+git clone https://github.com/yourusername/ai-feedback-generator.git
+cd ai-feedback-generator
+
+## 2. Install dependencies
+
+pip install -r requirements.txt
+
+##3. Add your Groq API Key
+
+Create a .streamlit/secrets.toml file:
+GROQ_API_KEY = "your_groq_api_key_here"
+
+##4. Run the app
+
+streamlit run app.py
+
+💡 Future Upgrades
+🎤 Add voice feedback in Tamil or Hindi
+
+🧠 Let the AI grade the project (A/B/C)
+
+📊 Track student submissions with history
+
+🕵️‍♂️ Add plagiarism checker
+
+🙋‍♂️ Author
+Mohammed Jaasir
+Engineering student at SNS College of Engineering
+📫 Connect on LinkedIn | Email me
+
+
+📜 License
+This project is open-source under the MIT License.
+
+“Don’t just build projects. Build tools that help others build better.”
+## ✅ How It's Unique
+
+- Speaks with your **voice** and purpose
+- Shows your **intention** behind building it
+- Lists **practical use cases** and **future ideas**
+- Impresses anyone reviewing your GitHub or resume
+
