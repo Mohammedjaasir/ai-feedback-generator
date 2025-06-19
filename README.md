@@ -56,3 +56,15 @@ So I thought — what if we could use GenAI not just to write code, but to think
 
 ## 📂 Folder Structure
 
+ai-feedback-generator/
+├── app.py
+├── requirements.txt
+├── prompts/
+│ └── feedback_prompt.txt
+├── utils/
+│ ├── extractors.py
+│ └── slide_generator.py
+├── assets/
+│ └── screenshot.png
+└── .streamlit/
+└── secrets.toml
