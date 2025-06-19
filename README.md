@@ -16,6 +16,7 @@ Built using [Streamlit](https://streamlit.io), [Groq](https://groq.com), and LLM
 ## 📸 Demo
 
 ![App Screenshot](https://github.com/yourusername/ai-feedback-generator/assets/screenshot.gif)
+![Uploading Screenshot_19-6-2025_21642_localhost.jpeg…]()
 
 ---
 
