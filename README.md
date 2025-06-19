@@ -98,7 +98,8 @@ GROQ_API_KEY = "your_groq_api_key_here"
 
 streamlit run app.py
 
-💡 Future Upgrades
+## 💡 Future Upgrades
+
 🎤 Add voice feedback in Tamil or Hindi
 
 🧠 Let the AI grade the project (A/B/C)
@@ -107,13 +108,13 @@ streamlit run app.py
 
 🕵️‍♂️ Add plagiarism checker
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 Mohammed Jaasir
 Engineering student at SNS College of Engineering
 📫 Connect on LinkedIn | Email me
 
 
-📜 License
+## 📜 License
 This project is open-source under the MIT License.
 
 “Don’t just build projects. Build tools that help others build better.”
