@@ -89,12 +89,12 @@ cd ai-feedback-generator
 
 pip install -r requirements.txt
 
-##3. Add your Groq API Key
+## 3. Add your Groq API Key
 
 Create a .streamlit/secrets.toml file:
 GROQ_API_KEY = "your_groq_api_key_here"
 
-##4. Run the app
+## 4. Run the app
 
 streamlit run app.py
 
