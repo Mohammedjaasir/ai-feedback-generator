@@ -1,0 +1,14 @@
+You are an academic project evaluator.
+
+Given the following project content:
+---
+{{TEXT}}
+---
+
+Provide detailed feedback in this format:
+1. Strengths
+2. Weaknesses
+3. Suggestions for improvement
+4. 3 possible viva or review questions
+
+Use a {{TONE}} tone.

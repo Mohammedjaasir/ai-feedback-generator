@@ -1,0 +1,7 @@
+streamlit
+groq
+pdfplumber
+python-docx
+python-pptx
+fpdf
+python-pptx
